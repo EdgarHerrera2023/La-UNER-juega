@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>¡Feliz Día del Programador!</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="game-container">
+        <h1>¡Feliz Día del Programador!</h1>
+        <p>¡Atrapa el café y evita los bugs!</p>
+        <canvas id="gameCanvas" width="800" height="600"></canvas>
+        <div id="start-screen">
+            <img id="uner-logo" src="uner_logo.png" alt="Logo UNER">
+            <h2>Bug Catcher</h2>
+            <button id="startButton">Empezar a Programar</button>
+        </div>
+        <div id="game-over-screen" style="display: none;">
+            <h2>Game Over</h2>
+            <p>Puntuación Final: <span id="final-score">0</span></p>
+            <button id="restartButton">Intentar de Nuevo</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
